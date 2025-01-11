@@ -11,7 +11,7 @@
 
 .text
 
-
+/* 
 *{
  margin: 0px;
  padding: 0px;
@@ -21,7 +21,7 @@
  background-color: #F1F1F3;
  
  
-}
+} */
 .dark-2{
   color:rgba(14, 14, 14, 0.5) ; 
 }
@@ -32,10 +32,11 @@
    display: flex;
    justify-content:space-around;
    align-items: center;
-  width: 1280px; 
-  height: 560px; 
-  border-radius: 10px;
-  margin:80px  ;
+   border-radius: 10px;
+   margin:80px  ;
+   width: 1280px;
+   height: 560px;
+ 
 }
 .banner-contain{
     max-width: 622px;
@@ -263,6 +264,36 @@ border: none;
     border-radius: 8px;
     margin: 32px;
 }
+/* newsletter */
+.newsletter{
+    text-align: center;
+    padding: 32px;
+    margin: 80px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+}
+.sus-btn{
+    background-color: rgba(0, 106, 80, 1);
+    color:#FFFFFF;
+    width: 150px;
+    height: 55px;
+    padding: 0
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.input-email{
+    width: 500px;
+    height: 55px;
+    padding: 0
+    outline: none;
+    border: none;
+    flex: 1;
+    border-radius: 10px ;
+    
+}
+
 
 
 
