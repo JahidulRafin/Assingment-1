@@ -59,9 +59,9 @@
 .banner-contain-new{
     background-color: #006A50;
     color: #FFFFFF;
+    border-radius: 8px;
     width: 270px;
     height: 56px
-      
     
 }
 .banner-contain-img{
@@ -140,26 +140,130 @@ border: none;
     border-radius: 10px
 
 }
+.name{
+    font-size: 20px;
+    font-weight: 600;
+}
 /* News */
 .news{
     padding: 32px;
     margin: 80px;
 }
+.news-titles{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.news-descrip{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B5B5B5;
+
+}
 .news-1{
     display: flex;
     justify-content: space-around;
+    border-radius: 24px;
+    box-shadow: 0 6px 50px 0 rgba(164, 157, 157, 0.15);
+    padding: 24px;
 }
 .news-2{
     display: flex;
     justify-content: space-around;
+    border-radius: 24px;
+    box-shadow: 0 6px 50px 0 rgba(164, 157, 157, 0.15);
+    padding: 24px;
+    margin-top: 24px;
 }
+
 .news-portal-1{
     padding: 8px 32px;
+    align-items: center;
+    
 
 }
 .news-portal-2{
     padding: 8px 32px;
+    align-items: center;
 
 }
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+.news-date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B5B5B5;
+
+}
+.new-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B5B5B5;
+
+
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+
+}
+.news-btn{
+    background-color: rgba(0, 106, 80, 1);
+   
+    color: #FFFFFf;
+    padding: 26px 13px;
+    border-radius: 8px;
+}
+/* donnet */
+.donate{
+    text-align: center;
+    padding: 32px;
+    margin: 80px;
+    /* width: 1280px; */
+    /* height: 464px */
+}
+.donate-options button{
+ padding: 32px ;
+ border-radius: 16px;
+ box-shadow: #B5B5B5;
+ font-size: 40px;
+ font-weight: bold;
+ color: rgba(14, 14, 14, 0.8);
+ 
+}
+.highlight{
+    background-color: #C6E4D6;
+    
+}
+#input{
+    width:100%;
+    padding: 16px 20px;
+    margin:10px 0;
+    text-align: center;
+    margin: 32px;
+
+   
+}
+.hover{
+    box-shadow: 0 6px 50px 0 rgba(164, 157, 157, 0.15);
+}
+.hover:hover{
+    background-color: red;
+
+}
+.donate-btn{
+    background-color: #006A50;
+    color: #FFFFFf;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin: 32px;
+}
+
+
 
 
