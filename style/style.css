@@ -272,26 +272,49 @@ border: none;
     background-color: #C6E4D6;
     border-radius: 24px;
 
+} 
+
+.newsletter-form {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
-.sus-btn{
+
+.input-email {
+    
+    width: 500px;
+    height: 32px;
+    padding: 10px; /* Optional: space inside the input field */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px 0 0 4px;
+    margin: 0; /* Ensure no margin around the input */
+}
+
+.sus-btn {
     background-color: rgba(0, 106, 80, 1);
     color:#FFFFFF;
     width: 150px;
     height: 55px;
-    padding: 0;
-    outline: none;
-    border: none;
-    border-radius: 10px;
+    padding: 10px ; /* Add padding inside the button */
+   
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    margin: 0; /* Ensure no margin around the button */
 }
-.input-email{
-    width: 500px;
-    height: 55px;
-    padding: 0;
-    outline: none;
-    border: none;
-    flex: 1;
-    border-radius: 10px ;
-    
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.foot-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2px;
+    padding: 23px;
 }
 
 
