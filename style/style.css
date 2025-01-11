@@ -278,7 +278,7 @@ border: none;
     color:#FFFFFF;
     width: 150px;
     height: 55px;
-    padding: 0
+    padding: 0;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -286,7 +286,7 @@ border: none;
 .input-email{
     width: 500px;
     height: 55px;
-    padding: 0
+    padding: 0;
     outline: none;
     border: none;
     flex: 1;
