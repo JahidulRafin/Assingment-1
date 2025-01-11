@@ -9,10 +9,17 @@
     "wdth" 100;
 }
 
+.text
+
 
 *{
  margin: 0px;
  padding: 0px;
+ width: 1280px;
+ height: auto;
+ text-align: center;
+ background-color: #F1F1F3;
+ 
  
 }
 .dark-2{
@@ -28,7 +35,7 @@
   width: 1280px; 
   height: 560px; 
   border-radius: 10px;
-  margin: 0 80px 0 100px;
+  margin:80px  ;
 }
 .banner-contain{
     max-width: 622px;
@@ -45,6 +52,7 @@
     font-size: 44px;
    margin-bottom: 10px;
     font-weight:bold;
+    font-weight: 56px;
     
     
 }
@@ -60,3 +68,98 @@
     width: 474px;
     height: 400px;
 }
+/* vision */
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-description{
+    color: #0E0E0E;
+}
+.vision-box1{
+    background-color: #81B4FC;
+    padding: 32px 32px;
+    border-radius: 16px;
+    
+    
+
+}
+.vision-box2{
+    background-color: #C6E4D6;
+    padding: 32px 32px;
+    border-radius: 16px;
+
+}
+.vision-box3{
+    background-color: #F7EBCF;
+    padding: 32px 32px;
+    border-radius: 16px;
+
+}
+.vision-btn1{
+background-color: #5490F5;
+color:#FFFFFF;
+border-radius: 8px;
+padding: 20px 11px;
+border: none;
+}
+.vision-btn2{
+    background-color: #09A15C;
+    color:#FFFFFF ;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 11px;
+
+}
+.vision-btn3{
+    background-color: #FFC239;
+    color: #FFFFFf;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 11px;
+
+}
+.vision-contain{
+    display:flex ;
+    gap: 24px;
+    margin: 32px 0 0 0;
+    
+}
+.vision{
+    padding: 30px;
+    margin: 80px;
+    
+}
+.section-speech{
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: 32px 0;
+    padding: 48px 24px;
+    box-shadow: 0 6px 50px 0 rgba(164, 157, 157, 0.15);
+    border-radius: 10px
+
+}
+/* News */
+.news{
+    padding: 32px;
+    margin: 80px;
+}
+.news-1{
+    display: flex;
+    justify-content: space-around;
+}
+.news-2{
+    display: flex;
+    justify-content: space-around;
+}
+.news-portal-1{
+    padding: 8px 32px;
+
+}
+.news-portal-2{
+    padding: 8px 32px;
+
+}
+
+
